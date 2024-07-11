@@ -1,0 +1,65 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif; 
+    line-height: 1.6; 
+    background-color: #f7f7f7; 
+}
+
+h1 {
+    margin-bottom: 20px; 
+    color: #333; 
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+.categorie {
+    text-decoration: none; 
+    padding: 10px; 
+    color: #333; 
+}
+
+.categorie :hover {
+    background-color: #ddd; 
+}
+
+.article {
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    margin-bottom: 20px; 
+    padding: 20px; 
+}
+
+.titreArticle {
+    color: #333;
+    margin-bottom: 10px; 
+}
+
+.contenuArticle {
+    color: #666;
+}
+
+.dateCreationArticle, .dateModificationArticle {
+    color: #999; 
+    font-style: italic; 
+    margin-top: 5px; 
+}
+
+.actuelle{
+    color: blue; 
+    font-weight: bold;
+    pointer-events: none; 
+    cursor: default; 
+    font-size: large;
+}
